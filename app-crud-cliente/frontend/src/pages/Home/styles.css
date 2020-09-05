@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-title {
+  padding: 50px;
+}
+
+.home-group-btn {
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-btn {
+  width: 300px;
+  margin: 10px;
+}
+
+#btn-client {
+  box-shadow: 2px 2px 5px rgb(48, 75, 226);
+}
+
+#btn-administrator {
+  box-shadow: 2px 2px 5px rgb(92, 92, 92);
+}
