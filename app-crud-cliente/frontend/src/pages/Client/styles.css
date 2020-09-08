@@ -1,4 +1,17 @@
+.client-container {
+  margin-top: 50px;
+  padding: 25px;
+  box-shadow: 7px 7px 14px #000;
+  border-radius: 10px;
+}
+
 .client-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

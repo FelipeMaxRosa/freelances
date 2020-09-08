@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import "./styles.css";
 
@@ -18,11 +19,13 @@ const Home: React.SFC<HomeProps> = ({ onOpenModal }) => {
         <main>
           <div className="home-group-btn">
             <Button
+              as={Link}
+              to="/cliente"
               id="btn-client"
               className="home-btn"
               variant="primary"
               size="lg"
-              onClick={onOpenModal}
+              // onClick={onOpenModal}
             >
               Cliente
             </Button>{" "}
@@ -32,7 +35,7 @@ const Home: React.SFC<HomeProps> = ({ onOpenModal }) => {
               variant="secondary"
               size="lg"
             >
-              Administrador
+              Colaborador
             </Button>
           </div>
         </main>

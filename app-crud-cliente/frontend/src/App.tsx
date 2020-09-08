@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Home onOpenModal={handleOpenModal} />
-      {openModal && <Client onClose={handleCloseModal} />}
+      {openModal && <Client />}
     </div>
   );
 }
